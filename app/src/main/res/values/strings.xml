@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">sotringFrutle</string>
+    <string name="sorting">Сортировки</string>
+    <string name="method_simple_iteration">метод простой итерации</string>
+    <string name="method_newton">метод ньютона</string>
+    <string name="go">Выполнить</string>
+</resources>
