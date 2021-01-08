@@ -1,4 +1,4 @@
-package com.example.gnirtoselturf.sorting;
+package com.example.gnirtoselturf.algorithms.sorting;
 
 import android.os.Build;
 import android.os.Bundle;
@@ -16,9 +16,7 @@ import androidx.fragment.app.Fragment;
 
 import com.example.gnirtoselturf.R;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 public class BinarySearch extends Fragment {
 
@@ -53,17 +51,21 @@ public class BinarySearch extends Fragment {
 
 
        // size = Integer.parseInt(mSizeArray.getText().toString());
-
        // key = Integer.parseInt(mSizeArray.getText().toString());
-
        // String str = mArrayvalue.getText().toString();
        // num = Arrays.stream(str.split(" ")).mapToInt(Integer::parseInt).toArray();
 
         mButtonMake.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                 size = Integer.parseInt(mSizeArray.getText().toString());
-                 key = Integer.parseInt(mKeyArray.getText().toString());
+
+                try {
+                    size = Integer.parseInt(mSizeArray.getText().toString());
+                    key = Integer.parseInt(mKeyArray.getText().toString());
+                } catch (NumberFormatException e){
+                    size = 0;
+                    key = 0;
+                }
 
                  String str = mArrayvalue.getText().toString();
                  num = (int[]) Arrays.stream(str.split(" ")).mapToInt(Integer::parseInt).toArray();

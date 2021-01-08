@@ -5,13 +5,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.example.gnirtoselturf.sorting.BinarySearch;
+import com.example.gnirtoselturf.algorithms.sorting.BinarySearch;
 
 
 public class MainFragment extends Fragment {

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/ways"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите количество путей от 3 до 10"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/edgeOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="введите края"
+        android:inputType="number"
+        android:visibility="invisible"/>
+
+    <EditText
+        android:id="@+id/edgeTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="введите края"
+        android:inputType="number"
+        android:visibility="invisible"/>
+
+    <EditText
+        android:id="@+id/edgeThree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="введите края"
+        android:inputType="number"
+        android:visibility="invisible"/>
+
+    <EditText
+        android:id="@+id/edgeFour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="введите края"
+        android:inputType="number"
+        android:visibility="invisible"/>
+
+    <EditText
+        android:id="@+id/edgeFive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="введите края"
+        android:inputType="number"
+        android:visibility="invisible"/>
+
+    <EditText
+        android:id="@+id/edgeSix"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="введите края"
+        android:inputType="number"
+        android:visibility="invisible"/>
+
+    <EditText
+        android:id="@+id/edgeSeven"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="введите края"
+        android:inputType="number"
+        android:visibility="invisible"/>
+
+    <EditText
+        android:id="@+id/edgeEight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="введите края"
+        android:inputType="number"
+        android:visibility="invisible"/>
+
+    <EditText
+        android:id="@+id/edgeNine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="введите края"
+        android:inputType="number"
+        android:visibility="invisible"/>
+
+    <EditText
+        android:id="@+id/edgeTen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="введите края"
+        android:inputType="number"
+        android:visibility="invisible"/>
+
+
+
+</LinearLayout>
